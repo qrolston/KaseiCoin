@@ -1,4 +1,4 @@
-pragma solidity ^0.8.0;
+pragma solidity ^0.5.0;
 
 //  Import the following contracts from the OpenZeppelin library:
 //    * `ERC20`
@@ -9,10 +9,18 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Mintable.sol";
 
 // Create a constructor for the KaseiCoin contract and have the contract inherit the libraries that you imported from OpenZeppelin.
-pragma solidity ^0.8.0;
 
-// Define a new contract named `KaseiCoin` and have it inherit the three imported contracts
-contract KaseiCoin is ERC20, ERC20Detailed, ERCMintable {
-    constructor() ERC20Detailed("name", "synbol","18") {
+contract KaseiCoin is ERC20, ERC20Detailed, ERC20Mintable {
+    constructor(
+        string memory name,
+        string memory symbol,
+        uint initial_supply
+    )
+        ERC20Detailed(name, symbol,18)
+
+        public
+    {
+        
     }
+
 }
