@@ -11,9 +11,9 @@ The crowdsale contract that you create will manage the entire crowdsale process,
 The steps for this Challenge are divided into the following sections:
 
 1. Create the KaseiCoin Token Contract
-
+![Compiled KC contract](Evaluation_Evidence/1_compiled_kasei_coin.png)
 2. Create the KaseiCoin Crowdsale Contract
-
+![Compiled KC Crowdsale contract](Evaluation_Evidence/2_compiled_kasei_coin_crowdsale.png)
 3. Create the KaseiCoin Deployer Contract
 
 4. Deploy the Crowdsale to a Local Blockchain
