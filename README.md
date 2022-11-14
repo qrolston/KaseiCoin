@@ -13,7 +13,7 @@ The steps for this Challenge are divided into the following sections:
 1. Create the KaseiCoin Token Contract
 ![Compiled KC contract](Evaluation_Evidence/1_compiled_kasei_coin.png)
 2. Create the KaseiCoin Crowdsale Contract
-![Compiled KC Crowdsale contract](Evaluation_Evidence/2_compiled_kasei_coin_crowdsale.png)
+![Compiled KC Crowdsale contract](Evaluation_Evidence/2_complied_kasei_coin_crowdsale.png)
 3. Create the KaseiCoin Deployer Contract
 
 4. Deploy the Crowdsale to a Local Blockchain
@@ -110,7 +110,8 @@ Next, within the `KaseiCoinCrowdsaleDeployer` contract, add variables to store t
 
 In this section, you will deploy the crowdsale to a local blockchain using Remix, MetaMask, and Ganache. To do so, complete the following steps. Record a short video or take screenshots that illustrate the three steps outlined below as evidence of your deployed crowdsale contract.
 
-
+![Meta Mask dev](EEvaluation_Evidence/3_metamask_dev_network.png)
+![Meta Mask dev](EEvaluation_Evidence/4_metamask_imported_accounts.png)
 1. Deploy the crowdsale to a local blockchain with Remix, MetaMask, and Ganache.
 
 2. Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances associated with those accounts.
