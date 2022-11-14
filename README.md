@@ -110,8 +110,8 @@ Next, within the `KaseiCoinCrowdsaleDeployer` contract, add variables to store t
 
 In this section, you will deploy the crowdsale to a local blockchain using Remix, MetaMask, and Ganache. To do so, complete the following steps. Record a short video or take screenshots that illustrate the three steps outlined below as evidence of your deployed crowdsale contract.
 
-![Meta Mask dev](EEvaluation_Evidence/3_metamask_dev_network.png)
-![Meta Mask dev](EEvaluation_Evidence/4_metamask_imported_accounts.png)
+![Meta Mask dev](Evaluation_Evidence/3_metamask_dev_network.png)
+![Meta Mask dev](Evaluation_Evidence/4_metamask_imported_accounts.png)
 1. Deploy the crowdsale to a local blockchain with Remix, MetaMask, and Ganache.
 
 2. Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances associated with those accounts.
